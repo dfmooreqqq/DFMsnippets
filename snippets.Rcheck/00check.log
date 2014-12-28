@@ -1,0 +1,84 @@
+* using log directory 'C:/Users/damoore/Documents/GitHub/DFMsnippets/snippets.Rcheck'
+* using R version 3.1.0 (2014-04-10)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* checking for file 'snippets/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'snippets' version '1.0'
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking whether package 'snippets' can be installed ... WARNING
+Found the following significant warnings:
+  Warning: C:/Users/damoore/Documents/GitHub/DFMsnippets/snippets.Rcheck/00_pkg_src/snippets/man/snippets-package.Rd:33: All text must be in a section
+  Warning: C:/Users/damoore/Documents/GitHub/DFMsnippets/snippets.Rcheck/00_pkg_src/snippets/man/snippets-package.Rd:34: All text must be in a section
+  Warning: C:/Users/damoore/Documents/GitHub/DFMsnippets/snippets.Rcheck/00_pkg_src/snippets/man/snippets-package.Rd:35: All text must be in a section
+See 'C:/Users/damoore/Documents/GitHub/DFMsnippets/snippets.Rcheck/00install.out' for details.
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... WARNING
+Non-standard license specification:
+  What license is it under?
+Standardizable: FALSE
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+Found the following assignments to the global environment:
+File 'snippets/R/snippets.R':
+  assign(filestr, read.csv(paste(zipdir, j, sep = "\\")), envir = .GlobalEnv)
+* checking Rd files ... WARNING
+prepare_Rd: snippets-package.Rd:33: All text must be in a section
+prepare_Rd: snippets-package.Rd:34: All text must be in a section
+prepare_Rd: snippets-package.Rd:35: All text must be in a section
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... WARNING
+Unknown package '<pkg>' in Rd xrefs
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  'installpackages' 'loadinfilesinzip'
+All user-level objects in a package should have documentation entries.
+See the chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... WARNING
+Warning: parse error in file 'snippets-Ex.R':
+21:11: unexpected symbol
+20: 
+21: ~~ simple examples
+              ^
+* checking examples ... ERROR
+Running examples in 'snippets-Ex.R' failed
+The error most likely occurred in:
+
+> base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+> ### Name: snippets-package
+> ### Title: What the package does (short line) ~~ package title ~~
+> ### Aliases: snippets-package snippets
+> ### Keywords: package
+> 
+> ### ** Examples
+> 
+> ~~ simple examples of the most important functions ~~
+Error: unexpected symbol in "~~ simple examples"
+Execution halted
